@@ -15,81 +15,81 @@
 		33133B161CFF7657003FCFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33133B141CFF7657003FCFC5 /* Main.storyboard */; };
 		33133B181CFF7657003FCFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33133B171CFF7657003FCFC5 /* Assets.xcassets */; };
 		33133B1B1CFF7657003FCFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33133B191CFF7657003FCFC5 /* LaunchScreen.storyboard */; };
-		33133B831CFF77C7003FCFC5 /* NSMutableArray+MDStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B301CFF77C7003FCFC5 /* NSMutableArray+MDStack.h */; };
+		33133B831CFF77C7003FCFC5 /* NSMutableArray+MDStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B301CFF77C7003FCFC5 /* NSMutableArray+MDStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B841CFF77C7003FCFC5 /* NSMutableArray+MDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B311CFF77C7003FCFC5 /* NSMutableArray+MDStack.m */; };
-		33133B851CFF77C7003FCFC5 /* NSString+MDString.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B321CFF77C7003FCFC5 /* NSString+MDString.h */; };
+		33133B851CFF77C7003FCFC5 /* NSString+MDString.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B321CFF77C7003FCFC5 /* NSString+MDString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B861CFF77C7003FCFC5 /* NSString+MDString.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B331CFF77C7003FCFC5 /* NSString+MDString.m */; };
-		33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B381CFF77C7003FCFC5 /* MDWamp.h */; };
+		33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B381CFF77C7003FCFC5 /* MDWamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B8C1CFF77C7003FCFC5 /* MDWamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B391CFF77C7003FCFC5 /* MDWamp.m */; };
-		33133B8D1CFF77C7003FCFC5 /* MDWampClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3A1CFF77C7003FCFC5 /* MDWampClientConfig.h */; };
+		33133B8D1CFF77C7003FCFC5 /* MDWampClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3A1CFF77C7003FCFC5 /* MDWampClientConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B8E1CFF77C7003FCFC5 /* MDWampClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B3B1CFF77C7003FCFC5 /* MDWampClientConfig.m */; };
-		33133B8F1CFF77C7003FCFC5 /* MDWampClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3C1CFF77C7003FCFC5 /* MDWampClientDelegate.h */; };
-		33133B901CFF77C7003FCFC5 /* MDWampConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3D1CFF77C7003FCFC5 /* MDWampConstants.h */; };
+		33133B8F1CFF77C7003FCFC5 /* MDWampClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3C1CFF77C7003FCFC5 /* MDWampClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133B901CFF77C7003FCFC5 /* MDWampConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3D1CFF77C7003FCFC5 /* MDWampConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B911CFF77C7003FCFC5 /* MDWampConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B3E1CFF77C7003FCFC5 /* MDWampConstants.m */; };
-		33133B921CFF77C7003FCFC5 /* MDWampAbort.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B401CFF77C7003FCFC5 /* MDWampAbort.h */; };
+		33133B921CFF77C7003FCFC5 /* MDWampAbort.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B401CFF77C7003FCFC5 /* MDWampAbort.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B931CFF77C7003FCFC5 /* MDWampAbort.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B411CFF77C7003FCFC5 /* MDWampAbort.m */; };
-		33133B941CFF77C7003FCFC5 /* MDWampAuthenticate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B421CFF77C7003FCFC5 /* MDWampAuthenticate.h */; };
+		33133B941CFF77C7003FCFC5 /* MDWampAuthenticate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B421CFF77C7003FCFC5 /* MDWampAuthenticate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B951CFF77C7003FCFC5 /* MDWampAuthenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B431CFF77C7003FCFC5 /* MDWampAuthenticate.m */; };
-		33133B961CFF77C7003FCFC5 /* MDWampCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B441CFF77C7003FCFC5 /* MDWampCall.h */; };
+		33133B961CFF77C7003FCFC5 /* MDWampCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B441CFF77C7003FCFC5 /* MDWampCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B971CFF77C7003FCFC5 /* MDWampCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B451CFF77C7003FCFC5 /* MDWampCall.m */; };
-		33133B981CFF77C7003FCFC5 /* MDWampCancel.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B461CFF77C7003FCFC5 /* MDWampCancel.h */; };
+		33133B981CFF77C7003FCFC5 /* MDWampCancel.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B461CFF77C7003FCFC5 /* MDWampCancel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B991CFF77C7003FCFC5 /* MDWampCancel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B471CFF77C7003FCFC5 /* MDWampCancel.m */; };
-		33133B9A1CFF77C7003FCFC5 /* MDWampChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B481CFF77C7003FCFC5 /* MDWampChallenge.h */; };
+		33133B9A1CFF77C7003FCFC5 /* MDWampChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B481CFF77C7003FCFC5 /* MDWampChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B9B1CFF77C7003FCFC5 /* MDWampChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B491CFF77C7003FCFC5 /* MDWampChallenge.m */; };
-		33133B9C1CFF77C7003FCFC5 /* MDWampError.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B4A1CFF77C7003FCFC5 /* MDWampError.h */; };
+		33133B9C1CFF77C7003FCFC5 /* MDWampError.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B4A1CFF77C7003FCFC5 /* MDWampError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B9D1CFF77C7003FCFC5 /* MDWampError.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B4B1CFF77C7003FCFC5 /* MDWampError.m */; };
-		33133B9E1CFF77C7003FCFC5 /* MDWampEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B4C1CFF77C7003FCFC5 /* MDWampEvent.h */; };
+		33133B9E1CFF77C7003FCFC5 /* MDWampEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B4C1CFF77C7003FCFC5 /* MDWampEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B9F1CFF77C7003FCFC5 /* MDWampEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B4D1CFF77C7003FCFC5 /* MDWampEvent.m */; };
-		33133BA01CFF77C7003FCFC5 /* MDWampGoodbye.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B4E1CFF77C7003FCFC5 /* MDWampGoodbye.h */; };
+		33133BA01CFF77C7003FCFC5 /* MDWampGoodbye.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B4E1CFF77C7003FCFC5 /* MDWampGoodbye.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BA11CFF77C7003FCFC5 /* MDWampGoodbye.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B4F1CFF77C7003FCFC5 /* MDWampGoodbye.m */; };
-		33133BA21CFF77C7003FCFC5 /* MDWampHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B501CFF77C7003FCFC5 /* MDWampHello.h */; };
+		33133BA21CFF77C7003FCFC5 /* MDWampHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B501CFF77C7003FCFC5 /* MDWampHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BA31CFF77C7003FCFC5 /* MDWampHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B511CFF77C7003FCFC5 /* MDWampHello.m */; };
-		33133BA41CFF77C7003FCFC5 /* MDWampInterrupt.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B521CFF77C7003FCFC5 /* MDWampInterrupt.h */; };
+		33133BA41CFF77C7003FCFC5 /* MDWampInterrupt.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B521CFF77C7003FCFC5 /* MDWampInterrupt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BA51CFF77C7003FCFC5 /* MDWampInterrupt.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B531CFF77C7003FCFC5 /* MDWampInterrupt.m */; };
-		33133BA61CFF77C7003FCFC5 /* MDWampInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B541CFF77C7003FCFC5 /* MDWampInvocation.h */; };
+		33133BA61CFF77C7003FCFC5 /* MDWampInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B541CFF77C7003FCFC5 /* MDWampInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BA71CFF77C7003FCFC5 /* MDWampInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B551CFF77C7003FCFC5 /* MDWampInvocation.m */; };
-		33133BA81CFF77C7003FCFC5 /* MDWampMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B561CFF77C7003FCFC5 /* MDWampMessage.h */; };
-		33133BA91CFF77C7003FCFC5 /* MDWampMessageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B571CFF77C7003FCFC5 /* MDWampMessageFactory.h */; };
+		33133BA81CFF77C7003FCFC5 /* MDWampMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B561CFF77C7003FCFC5 /* MDWampMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BA91CFF77C7003FCFC5 /* MDWampMessageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B571CFF77C7003FCFC5 /* MDWampMessageFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BAA1CFF77C7003FCFC5 /* MDWampMessageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B581CFF77C7003FCFC5 /* MDWampMessageFactory.m */; };
-		33133BAB1CFF77C7003FCFC5 /* MDWampMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B591CFF77C7003FCFC5 /* MDWampMessages.h */; };
-		33133BAC1CFF77C7003FCFC5 /* MDWampPublish.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B5A1CFF77C7003FCFC5 /* MDWampPublish.h */; };
+		33133BAB1CFF77C7003FCFC5 /* MDWampMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B591CFF77C7003FCFC5 /* MDWampMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BAC1CFF77C7003FCFC5 /* MDWampPublish.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B5A1CFF77C7003FCFC5 /* MDWampPublish.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BAD1CFF77C7003FCFC5 /* MDWampPublish.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B5B1CFF77C7003FCFC5 /* MDWampPublish.m */; };
-		33133BAE1CFF77C7003FCFC5 /* MDWampPublished.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B5C1CFF77C7003FCFC5 /* MDWampPublished.h */; };
+		33133BAE1CFF77C7003FCFC5 /* MDWampPublished.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B5C1CFF77C7003FCFC5 /* MDWampPublished.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BAF1CFF77C7003FCFC5 /* MDWampPublished.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B5D1CFF77C7003FCFC5 /* MDWampPublished.m */; };
-		33133BB01CFF77C7003FCFC5 /* MDWampRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B5E1CFF77C7003FCFC5 /* MDWampRegister.h */; };
+		33133BB01CFF77C7003FCFC5 /* MDWampRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B5E1CFF77C7003FCFC5 /* MDWampRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BB11CFF77C7003FCFC5 /* MDWampRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B5F1CFF77C7003FCFC5 /* MDWampRegister.m */; };
-		33133BB21CFF77C7003FCFC5 /* MDWampRegistered.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B601CFF77C7003FCFC5 /* MDWampRegistered.h */; };
+		33133BB21CFF77C7003FCFC5 /* MDWampRegistered.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B601CFF77C7003FCFC5 /* MDWampRegistered.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BB31CFF77C7003FCFC5 /* MDWampRegistered.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B611CFF77C7003FCFC5 /* MDWampRegistered.m */; };
-		33133BB41CFF77C7003FCFC5 /* MDWampResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B621CFF77C7003FCFC5 /* MDWampResult.h */; };
+		33133BB41CFF77C7003FCFC5 /* MDWampResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B621CFF77C7003FCFC5 /* MDWampResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BB51CFF77C7003FCFC5 /* MDWampResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B631CFF77C7003FCFC5 /* MDWampResult.m */; };
-		33133BB61CFF77C7003FCFC5 /* MDWampSubscribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B641CFF77C7003FCFC5 /* MDWampSubscribe.h */; };
+		33133BB61CFF77C7003FCFC5 /* MDWampSubscribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B641CFF77C7003FCFC5 /* MDWampSubscribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BB71CFF77C7003FCFC5 /* MDWampSubscribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B651CFF77C7003FCFC5 /* MDWampSubscribe.m */; };
-		33133BB81CFF77C7003FCFC5 /* MDWampSubscribed.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B661CFF77C7003FCFC5 /* MDWampSubscribed.h */; };
+		33133BB81CFF77C7003FCFC5 /* MDWampSubscribed.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B661CFF77C7003FCFC5 /* MDWampSubscribed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BB91CFF77C7003FCFC5 /* MDWampSubscribed.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B671CFF77C7003FCFC5 /* MDWampSubscribed.m */; };
-		33133BBA1CFF77C7003FCFC5 /* MDWampUnregister.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B681CFF77C7003FCFC5 /* MDWampUnregister.h */; };
+		33133BBA1CFF77C7003FCFC5 /* MDWampUnregister.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B681CFF77C7003FCFC5 /* MDWampUnregister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BBB1CFF77C7003FCFC5 /* MDWampUnregister.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B691CFF77C7003FCFC5 /* MDWampUnregister.m */; };
-		33133BBC1CFF77C7003FCFC5 /* MDWampUnregistered.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B6A1CFF77C7003FCFC5 /* MDWampUnregistered.h */; };
+		33133BBC1CFF77C7003FCFC5 /* MDWampUnregistered.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B6A1CFF77C7003FCFC5 /* MDWampUnregistered.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BBD1CFF77C7003FCFC5 /* MDWampUnregistered.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B6B1CFF77C7003FCFC5 /* MDWampUnregistered.m */; };
-		33133BBE1CFF77C7003FCFC5 /* MDWampUnsubscribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B6C1CFF77C7003FCFC5 /* MDWampUnsubscribe.h */; };
+		33133BBE1CFF77C7003FCFC5 /* MDWampUnsubscribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B6C1CFF77C7003FCFC5 /* MDWampUnsubscribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BBF1CFF77C7003FCFC5 /* MDWampUnsubscribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B6D1CFF77C7003FCFC5 /* MDWampUnsubscribe.m */; };
-		33133BC01CFF77C7003FCFC5 /* MDWampUnsubscribed.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B6E1CFF77C7003FCFC5 /* MDWampUnsubscribed.h */; };
+		33133BC01CFF77C7003FCFC5 /* MDWampUnsubscribed.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B6E1CFF77C7003FCFC5 /* MDWampUnsubscribed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BC11CFF77C7003FCFC5 /* MDWampUnsubscribed.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B6F1CFF77C7003FCFC5 /* MDWampUnsubscribed.m */; };
-		33133BC21CFF77C7003FCFC5 /* MDWampWelcome.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B701CFF77C7003FCFC5 /* MDWampWelcome.h */; };
+		33133BC21CFF77C7003FCFC5 /* MDWampWelcome.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B701CFF77C7003FCFC5 /* MDWampWelcome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BC31CFF77C7003FCFC5 /* MDWampWelcome.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B711CFF77C7003FCFC5 /* MDWampWelcome.m */; };
-		33133BC41CFF77C7003FCFC5 /* MDWampYield.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B721CFF77C7003FCFC5 /* MDWampYield.h */; };
+		33133BC41CFF77C7003FCFC5 /* MDWampYield.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B721CFF77C7003FCFC5 /* MDWampYield.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BC51CFF77C7003FCFC5 /* MDWampYield.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B731CFF77C7003FCFC5 /* MDWampYield.m */; };
-		33133BC61CFF77C7003FCFC5 /* MDWampSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B751CFF77C7003FCFC5 /* MDWampSerialization.h */; };
-		33133BC71CFF77C7003FCFC5 /* MDWampSerializationJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B761CFF77C7003FCFC5 /* MDWampSerializationJSON.h */; };
+		33133BC61CFF77C7003FCFC5 /* MDWampSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B751CFF77C7003FCFC5 /* MDWampSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BC71CFF77C7003FCFC5 /* MDWampSerializationJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B761CFF77C7003FCFC5 /* MDWampSerializationJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BC81CFF77C7003FCFC5 /* MDWampSerializationJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B771CFF77C7003FCFC5 /* MDWampSerializationJSON.m */; };
-		33133BC91CFF77C7003FCFC5 /* MDWampSerializationMsgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B781CFF77C7003FCFC5 /* MDWampSerializationMsgpack.h */; };
+		33133BC91CFF77C7003FCFC5 /* MDWampSerializationMsgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B781CFF77C7003FCFC5 /* MDWampSerializationMsgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BCA1CFF77C7003FCFC5 /* MDWampSerializationMsgpack.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B791CFF77C7003FCFC5 /* MDWampSerializationMsgpack.m */; };
-		33133BCB1CFF77C7003FCFC5 /* MDWampSerializations.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7A1CFF77C7003FCFC5 /* MDWampSerializations.h */; };
-		33133BCC1CFF77C7003FCFC5 /* MDWampTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7C1CFF77C7003FCFC5 /* MDWampTransport.h */; };
-		33133BCD1CFF77C7003FCFC5 /* MDWampTransportDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7D1CFF77C7003FCFC5 /* MDWampTransportDelegate.h */; };
-		33133BCE1CFF77C7003FCFC5 /* MDWampTransportRawSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7E1CFF77C7003FCFC5 /* MDWampTransportRawSocket.h */; };
+		33133BCB1CFF77C7003FCFC5 /* MDWampSerializations.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7A1CFF77C7003FCFC5 /* MDWampSerializations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BCC1CFF77C7003FCFC5 /* MDWampTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7C1CFF77C7003FCFC5 /* MDWampTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BCD1CFF77C7003FCFC5 /* MDWampTransportDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7D1CFF77C7003FCFC5 /* MDWampTransportDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BCE1CFF77C7003FCFC5 /* MDWampTransportRawSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B7E1CFF77C7003FCFC5 /* MDWampTransportRawSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BCF1CFF77C7003FCFC5 /* MDWampTransportRawSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B7F1CFF77C7003FCFC5 /* MDWampTransportRawSocket.m */; };
-		33133BD01CFF77C7003FCFC5 /* MDWampTransports.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B801CFF77C7003FCFC5 /* MDWampTransports.h */; };
-		33133BD11CFF77C7003FCFC5 /* MDWampTransportWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B811CFF77C7003FCFC5 /* MDWampTransportWebSocket.h */; };
+		33133BD01CFF77C7003FCFC5 /* MDWampTransports.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B801CFF77C7003FCFC5 /* MDWampTransports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133BD11CFF77C7003FCFC5 /* MDWampTransportWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B811CFF77C7003FCFC5 /* MDWampTransportWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BD21CFF77C7003FCFC5 /* MDWampTransportWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B821CFF77C7003FCFC5 /* MDWampTransportWebSocket.m */; };
 		33220B5F1CFF99EB00F3C3DA /* GHODictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B5D1CFF99EB00F3C3DA /* GHODictionary.framework */; };
 		33220B601CFF99EB00F3C3DA /* MPMessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B5E1CFF99EB00F3C3DA /* MPMessagePack.framework */; };
@@ -604,6 +604,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */,
 				33133BA41CFF77C7003FCFC5 /* MDWampInterrupt.h in Headers */,
 				33133BBA1CFF77C7003FCFC5 /* MDWampUnregister.h in Headers */,
 				33133B961CFF77C7003FCFC5 /* MDWampCall.h in Headers */,
@@ -611,7 +612,6 @@
 				33133BCE1CFF77C7003FCFC5 /* MDWampTransportRawSocket.h in Headers */,
 				33133BA01CFF77C7003FCFC5 /* MDWampGoodbye.h in Headers */,
 				33133BD01CFF77C7003FCFC5 /* MDWampTransports.h in Headers */,
-				33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */,
 				33133BA81CFF77C7003FCFC5 /* MDWampMessage.h in Headers */,
 				33133BB21CFF77C7003FCFC5 /* MDWampRegistered.h in Headers */,
 				33133B9C1CFF77C7003FCFC5 /* MDWampError.h in Headers */,
