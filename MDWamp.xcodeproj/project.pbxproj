@@ -183,8 +183,8 @@
 		3383BD341D00A57E00A93869 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 3383BD331D00A57E00A93869 /* Fastfile */; };
 		4F48B62521546F9500201BA5 /* GHODictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B61C21546F5900201BA5 /* GHODictionary.framework */; };
 		4F48B62621546F9E00201BA5 /* MPMessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B5E421546EE300201BA5 /* MPMessagePack.framework */; };
-		4F48B62721546FA600201BA5 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B60621546F4C00201BA5 /* SocketRocket.framework */; };
 		4F48B62821546FB000201BA5 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B5F721546F3F00201BA5 /* CocoaAsyncSocket.framework */; };
+		4F48B72821547ECA00201BA5 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B60621546F4C00201BA5 /* SocketRocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,13 +307,6 @@
 			remoteGlobalIDString = 33220B721CFF9F1700F3C3DA;
 			remoteInfo = "GHODictionary iOS";
 		};
-		4F48B61D21546F8400201BA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 81D6475F1D2CA78800690609;
-			remoteInfo = "SocketRocket-iOS";
-		};
 		4F48B61F21546F8400201BA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */;
@@ -334,6 +327,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 33220B711CFF9F1700F3C3DA;
 			remoteInfo = "GHODictionary iOS";
+		};
+		4F48B72621547EC000201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D6475F1D2CA78800690609;
+			remoteInfo = "SocketRocket-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -476,8 +476,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F48B72821547ECA00201BA5 /* SocketRocket.framework in Frameworks */,
 				4F48B62821546FB000201BA5 /* CocoaAsyncSocket.framework in Frameworks */,
-				4F48B62721546FA600201BA5 /* SocketRocket.framework in Frameworks */,
 				4F48B62621546F9E00201BA5 /* MPMessagePack.framework in Frameworks */,
 				4F48B62521546F9500201BA5 /* GHODictionary.framework in Frameworks */,
 			);
@@ -903,7 +903,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4F48B61E21546F8400201BA5 /* PBXTargetDependency */,
+				4F48B72721547EC000201BA5 /* PBXTargetDependency */,
 				4F48B62021546F8400201BA5 /* PBXTargetDependency */,
 				4F48B62221546F8400201BA5 /* PBXTargetDependency */,
 				4F48B62421546F8400201BA5 /* PBXTargetDependency */,
@@ -1300,11 +1300,6 @@
 			target = 33133ADC1CFF7598003FCFC5 /* MDWamp iOS */;
 			targetProxy = 33133AE91CFF7598003FCFC5 /* PBXContainerItemProxy */;
 		};
-		4F48B61E21546F8400201BA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SocketRocket-iOS";
-			targetProxy = 4F48B61D21546F8400201BA5 /* PBXContainerItemProxy */;
-		};
 		4F48B62021546F8400201BA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS CocoaAsyncSocket";
@@ -1319,6 +1314,11 @@
 			isa = PBXTargetDependency;
 			name = "GHODictionary iOS";
 			targetProxy = 4F48B62321546F8400201BA5 /* PBXContainerItemProxy */;
+		};
+		4F48B72721547EC000201BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SocketRocket-iOS";
+			targetProxy = 4F48B72621547EC000201BA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
