@@ -91,10 +91,6 @@
 		33133BD01CFF77C7003FCFC5 /* MDWampTransports.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B801CFF77C7003FCFC5 /* MDWampTransports.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BD11CFF77C7003FCFC5 /* MDWampTransportWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B811CFF77C7003FCFC5 /* MDWampTransportWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133BD21CFF77C7003FCFC5 /* MDWampTransportWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B821CFF77C7003FCFC5 /* MDWampTransportWebSocket.m */; };
-		33220B5F1CFF99EB00F3C3DA /* GHODictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B5D1CFF99EB00F3C3DA /* GHODictionary.framework */; };
-		33220B601CFF99EB00F3C3DA /* MPMessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B5E1CFF99EB00F3C3DA /* MPMessagePack.framework */; };
-		33220B621CFF9A7C00F3C3DA /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B611CFF9A7C00F3C3DA /* CocoaAsyncSocket.framework */; };
-		33220B641CFF9B4500F3C3DA /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B631CFF9B4500F3C3DA /* SocketRocket.framework */; };
 		33220B691CFF9C1F00F3C3DA /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B651CFF9C1F00F3C3DA /* CocoaAsyncSocket.framework */; };
 		33220B6A1CFF9C1F00F3C3DA /* GHODictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B661CFF9C1F00F3C3DA /* GHODictionary.framework */; };
 		33220B6B1CFF9C1F00F3C3DA /* MPMessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33220B671CFF9C1F00F3C3DA /* MPMessagePack.framework */; };
@@ -185,6 +181,10 @@
 		336F578B1CFF7A3100811E8B /* MDWampTransportWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B811CFF77C7003FCFC5 /* MDWampTransportWebSocket.h */; };
 		336F578C1CFF7A3100811E8B /* MDWampTransportWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B821CFF77C7003FCFC5 /* MDWampTransportWebSocket.m */; };
 		3383BD341D00A57E00A93869 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 3383BD331D00A57E00A93869 /* Fastfile */; };
+		4F48B62521546F9500201BA5 /* GHODictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B61C21546F5900201BA5 /* GHODictionary.framework */; };
+		4F48B62621546F9E00201BA5 /* MPMessagePack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B5E421546EE300201BA5 /* MPMessagePack.framework */; };
+		4F48B62721546FA600201BA5 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B60621546F4C00201BA5 /* SocketRocket.framework */; };
+		4F48B62821546FB000201BA5 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F48B5F721546F3F00201BA5 /* CocoaAsyncSocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +194,146 @@
 			proxyType = 1;
 			remoteGlobalIDString = 33133ADC1CFF7598003FCFC5;
 			remoteInfo = "MDWamp iOS";
+		};
+		4F48B5DF21546EE300201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 001392081B0418E20082DEA8;
+			remoteInfo = MPMessagePack;
+		};
+		4F48B5E121546EE300201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 005F67AD1B15039000898B3C;
+			remoteInfo = MPMessagePackTests;
+		};
+		4F48B5E321546EE300201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33220B171CFF952F00F3C3DA;
+			remoteInfo = "MPMessagePack iOS";
+		};
+		4F48B5E521546EE300201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 003126111E0B456800657DAF;
+			remoteInfo = "MPMessagePack iOS Tests";
+		};
+		4F48B5F621546F3F00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CD990101B77868C0011A685;
+			remoteInfo = "iOS CocoaAsyncSocket";
+		};
+		4F48B5F821546F3F00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FC41F131B9D965000578BEB;
+			remoteInfo = "Mac CocoaAsyncSocket";
+		};
+		4F48B5FA21546F3F00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D8B70C41BCFA15700D8E273;
+			remoteInfo = "tvOS CocoaAsyncSocket";
+		};
+		4F48B60521546F4C00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 81D6478D1D2CA78800690609;
+			remoteInfo = "SocketRocket-iOS";
+		};
+		4F48B60721546F4C00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D4227621BB4358C000C1A6C;
+			remoteInfo = "SocketRocket-iOS-Dynamic";
+		};
+		4F48B60921546F4C00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F668C880153E91210044DBAC;
+			remoteInfo = "SocketRocket-macOS";
+		};
+		4F48B60B21546F4C00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3345DC901C52ACD70083CCB8;
+			remoteInfo = "SocketRocket-tvOS";
+		};
+		4F48B60D21546F4C00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BDA802145900D200FE3253;
+			remoteInfo = "SocketRocketTests-iOS";
+		};
+		4F48B60F21546F4C00201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F62417E314D52F3C003CE997;
+			remoteInfo = TestChat;
+		};
+		4F48B61721546F5900201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 001391E11B04112B0082DEA8;
+			remoteInfo = GHODictionary;
+		};
+		4F48B61921546F5900201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 001391EC1B04112B0082DEA8;
+			remoteInfo = GHODictionaryTests;
+		};
+		4F48B61B21546F5900201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33220B721CFF9F1700F3C3DA;
+			remoteInfo = "GHODictionary iOS";
+		};
+		4F48B61D21546F8400201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D6475F1D2CA78800690609;
+			remoteInfo = "SocketRocket-iOS";
+		};
+		4F48B61F21546F8400201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD9900F1B77868C0011A685;
+			remoteInfo = "iOS CocoaAsyncSocket";
+		};
+		4F48B62121546F8400201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 33220B161CFF952F00F3C3DA;
+			remoteInfo = "MPMessagePack iOS";
+		};
+		4F48B62321546F8400201BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 33220B711CFF9F1700F3C3DA;
+			remoteInfo = "GHODictionary iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -325,6 +465,10 @@
 		336F57911CFF7B2D00811E8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3383BD311D00A12200A93869 /* XCTAsyncTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTAsyncTestCase.h; sourceTree = "<group>"; };
 		3383BD331D00A57E00A93869 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MPMessagePack.xcodeproj; path = ../MPMessagePack/MPMessagePack.xcodeproj; sourceTree = "<group>"; };
+		4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket.xcodeproj; path = ../CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
+		4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SocketRocket.xcodeproj; path = ../SocketRocket/SocketRocket.xcodeproj; sourceTree = "<group>"; };
+		4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHODictionary.xcodeproj; path = ../GHODictionary/GHODictionary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,10 +476,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33220B641CFF9B4500F3C3DA /* SocketRocket.framework in Frameworks */,
-				33220B621CFF9A7C00F3C3DA /* CocoaAsyncSocket.framework in Frameworks */,
-				33220B5F1CFF99EB00F3C3DA /* GHODictionary.framework in Frameworks */,
-				33220B601CFF99EB00F3C3DA /* MPMessagePack.framework in Frameworks */,
+				4F48B62821546FB000201BA5 /* CocoaAsyncSocket.framework in Frameworks */,
+				4F48B62721546FA600201BA5 /* SocketRocket.framework in Frameworks */,
+				4F48B62621546F9E00201BA5 /* MPMessagePack.framework in Frameworks */,
+				4F48B62521546F9500201BA5 /* GHODictionary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +515,10 @@
 		33133AD11CFF751A003FCFC5 = {
 			isa = PBXGroup;
 			children = (
+				4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */,
+				4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */,
+				4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */,
+				4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */,
 				336F578D1CFF7B2100811E8B /* Metadata */,
 				33133B2E1CFF77C7003FCFC5 /* Sources */,
 				33133AEB1CFF7598003FCFC5 /* MDWamp iOSTests */,
@@ -597,6 +745,50 @@
 			path = fastlane;
 			sourceTree = "<group>";
 		};
+		4F48B5D921546EE300201BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F48B5E021546EE300201BA5 /* MPMessagePack.framework */,
+				4F48B5E221546EE300201BA5 /* MPMessagePackTests.xctest */,
+				4F48B5E421546EE300201BA5 /* MPMessagePack.framework */,
+				4F48B5E621546EE300201BA5 /* MPMessagePack iOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F48B5F121546F3F00201BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F48B5F721546F3F00201BA5 /* CocoaAsyncSocket.framework */,
+				4F48B5F921546F3F00201BA5 /* CocoaAsyncSocket.framework */,
+				4F48B5FB21546F3F00201BA5 /* CocoaAsyncSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F48B5FD21546F4C00201BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F48B60621546F4C00201BA5 /* SocketRocket.framework */,
+				4F48B60821546F4C00201BA5 /* SocketRocket.framework */,
+				4F48B60A21546F4C00201BA5 /* SocketRocket.framework */,
+				4F48B60C21546F4C00201BA5 /* SocketRocket.framework */,
+				4F48B60E21546F4C00201BA5 /* SocketRocketTests-iOS.xctest */,
+				4F48B61021546F4C00201BA5 /* TestChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F48B61221546F5900201BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F48B61821546F5900201BA5 /* GHODictionary.framework */,
+				4F48B61A21546F5900201BA5 /* GHODictionaryTests.xctest */,
+				4F48B61C21546F5900201BA5 /* GHODictionary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -711,6 +903,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				4F48B61E21546F8400201BA5 /* PBXTargetDependency */,
+				4F48B62021546F8400201BA5 /* PBXTargetDependency */,
+				4F48B62221546F8400201BA5 /* PBXTargetDependency */,
+				4F48B62421546F8400201BA5 /* PBXTargetDependency */,
 			);
 			name = "MDWamp iOS";
 			productName = "MDWamp iOS";
@@ -806,6 +1002,24 @@
 			mainGroup = 33133AD11CFF751A003FCFC5;
 			productRefGroup = 33133ADE1CFF7598003FCFC5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F48B5F121546F3F00201BA5 /* Products */;
+					ProjectRef = 4F48B5F021546F3F00201BA5 /* CocoaAsyncSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 4F48B61221546F5900201BA5 /* Products */;
+					ProjectRef = 4F48B61121546F5900201BA5 /* GHODictionary.xcodeproj */;
+				},
+				{
+					ProductGroup = 4F48B5D921546EE300201BA5 /* Products */;
+					ProjectRef = 4F48B5D821546EE300201BA5 /* MPMessagePack.xcodeproj */;
+				},
+				{
+					ProductGroup = 4F48B5FD21546F4C00201BA5 /* Products */;
+					ProjectRef = 4F48B5FC21546F4C00201BA5 /* SocketRocket.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				33133ADC1CFF7598003FCFC5 /* MDWamp iOS */,
@@ -815,6 +1029,121 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F48B5E021546EE300201BA5 /* MPMessagePack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MPMessagePack.framework;
+			remoteRef = 4F48B5DF21546EE300201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B5E221546EE300201BA5 /* MPMessagePackTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MPMessagePackTests.xctest;
+			remoteRef = 4F48B5E121546EE300201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B5E421546EE300201BA5 /* MPMessagePack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MPMessagePack.framework;
+			remoteRef = 4F48B5E321546EE300201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B5E621546EE300201BA5 /* MPMessagePack iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MPMessagePack iOS Tests.xctest";
+			remoteRef = 4F48B5E521546EE300201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B5F721546F3F00201BA5 /* CocoaAsyncSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaAsyncSocket.framework;
+			remoteRef = 4F48B5F621546F3F00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B5F921546F3F00201BA5 /* CocoaAsyncSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaAsyncSocket.framework;
+			remoteRef = 4F48B5F821546F3F00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B5FB21546F3F00201BA5 /* CocoaAsyncSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaAsyncSocket.framework;
+			remoteRef = 4F48B5FA21546F3F00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B60621546F4C00201BA5 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 4F48B60521546F4C00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B60821546F4C00201BA5 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 4F48B60721546F4C00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B60A21546F4C00201BA5 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 4F48B60921546F4C00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B60C21546F4C00201BA5 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 4F48B60B21546F4C00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B60E21546F4C00201BA5 /* SocketRocketTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SocketRocketTests-iOS.xctest";
+			remoteRef = 4F48B60D21546F4C00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B61021546F4C00201BA5 /* TestChat.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestChat.app;
+			remoteRef = 4F48B60F21546F4C00201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B61821546F5900201BA5 /* GHODictionary.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GHODictionary.framework;
+			remoteRef = 4F48B61721546F5900201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B61A21546F5900201BA5 /* GHODictionaryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GHODictionaryTests.xctest;
+			remoteRef = 4F48B61921546F5900201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F48B61C21546F5900201BA5 /* GHODictionary.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GHODictionary.framework;
+			remoteRef = 4F48B61B21546F5900201BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		33133ADB1CFF7598003FCFC5 /* Resources */ = {
@@ -970,6 +1299,26 @@
 			isa = PBXTargetDependency;
 			target = 33133ADC1CFF7598003FCFC5 /* MDWamp iOS */;
 			targetProxy = 33133AE91CFF7598003FCFC5 /* PBXContainerItemProxy */;
+		};
+		4F48B61E21546F8400201BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SocketRocket-iOS";
+			targetProxy = 4F48B61D21546F8400201BA5 /* PBXContainerItemProxy */;
+		};
+		4F48B62021546F8400201BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS CocoaAsyncSocket";
+			targetProxy = 4F48B61F21546F8400201BA5 /* PBXContainerItemProxy */;
+		};
+		4F48B62221546F8400201BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MPMessagePack iOS";
+			targetProxy = 4F48B62121546F8400201BA5 /* PBXContainerItemProxy */;
+		};
+		4F48B62421546F8400201BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GHODictionary iOS";
+			targetProxy = 4F48B62321546F8400201BA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
